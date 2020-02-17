@@ -1,0 +1,52 @@
+{
+  "name": "react-starter-kit",
+  "version": "1.0.0",
+  "description": "React app with support for scss, routing, redux, using webpack",
+  "main": "app/src/index.js",
+  "scripts": {
+    "lint": "eslint app/**/*.js app/**/*.jsx --fix",
+    "test": "eslint app/**/*.js app/**/*.jsx --fix && test",
+    "build": "eslint app/**/*.js app/**/*.jsx --fix && webpack",
+    "watch": "webpack --watch --mode development",
+    "start": "eslint app/**/*.js app/**/*.jsx --fix && webpack & dotnet run"
+  },
+  "author": "Bogdan Paul Petcas",
+  "license": "ISC",
+  "dependencies": {
+    "connected-react-router": "^6.5.0",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.4.5",
+    "babel-eslint": "^9.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-react-app": "^4.0.1",
+    "eslint-plugin-flowtype": "^2.50.3",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.2",
+    "eslint-plugin-react-hooks": "^1.5.0",
+    "mini-css-extract-plugin": "^0.7.0",
+    "node-sass": "^4.13.1",
+    "redux-devtools": "^3.5.0",
+    "sass-loader": "^7.1.0",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.5"
+  }
+}
