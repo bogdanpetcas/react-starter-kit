@@ -1,4 +1,4 @@
-# react-boilerplate
+# react-starter-kit
 React app starter kit, featuring:
 - scss
 - routing
