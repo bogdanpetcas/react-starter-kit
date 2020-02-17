@@ -1,2 +1,7 @@
 # react-boilerplate
-React app basic boilerplate, with routing and redux, bundled using webpack
+React app starter kit, featuring:
+- scss
+- routing
+- redux
+- webpack bundling
+- examples
