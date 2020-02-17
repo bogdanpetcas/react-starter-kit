@@ -1,7 +1,7 @@
 import { TOAST_HIDE, TOAST_SHOW } from 'actions/toast';
 
 export default function toast(state, action) {
-  state = state || { show: false};
+  state = state || { show: false };
 
   switch (action.type) {
     case TOAST_HIDE:

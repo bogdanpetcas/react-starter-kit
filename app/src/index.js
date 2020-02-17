@@ -13,15 +13,14 @@ const history = createBrowserHistory();
 const initialState = {};
 const store = configureStore(history, initialState);
 
-ReactDOM.render(<h1>salut</h1>, document.getElementById('root'));
-// ReactDOM.render(
-//   <Provider store={store}>
-//     <ConnectedRouter history={history}>
-//       <Switch>
-//         <Route path={routes.all} render={() => <Home />} />
-//       </Switch>
-//       <Toast />
-//     </ConnectedRouter>
-//   </Provider>,
-//   document.getElementById('root')
-// );
+ReactDOM.render(
+  <Provider store={store}>
+    <ConnectedRouter history={history}>
+      <Switch>
+        <Route path={routes.all} render={() => <Home />} />
+      </Switch>
+      <Toast />
+    </ConnectedRouter>
+  </Provider>,
+  document.getElementById('root')
+);
