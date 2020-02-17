@@ -8,7 +8,7 @@
     "test": "eslint app/**/*.js app/**/*.jsx --fix && test",
     "build": "eslint app/**/*.js app/**/*.jsx --fix && webpack",
     "watch": "webpack --watch --mode development",
-    "start": "eslint app/**/*.js app/**/*.jsx --fix && webpack & dotnet run"
+    "serve": "http-server --cors"
   },
   "author": "Bogdan Paul Petcas",
   "license": "ISC",
