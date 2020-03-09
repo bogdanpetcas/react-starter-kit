@@ -3,5 +3,5 @@ React app starter kit, featuring:
 - scss
 - routing
 - redux
-- webpack bundling
+- webpack bundling (separate .js and .css files)
 - examples
