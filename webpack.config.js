@@ -26,7 +26,10 @@ module.exports = {
     rules: [
       {
         test: /\.(js|jsx)$/,
-        exclude: /(node_modules)/,
+        exclude: [
+          __dirname + '/node_modules',
+          __dirname + '/app/vendor'
+        ],
         loader: ['babel-loader', 'source-map-loader']
       },
       {
